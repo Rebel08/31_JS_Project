@@ -53,7 +53,7 @@ function addItem(e){
  } 
 
  function handleToggle(e){
-  if(!e.target.matches('input')) return;
+  if(!e.target.matches('input')) return;s
   const index = e.target.dataset.index;
   items[index].done = !items[index].done;
   localStorage.setItem('items',JSON.stringify(items));
