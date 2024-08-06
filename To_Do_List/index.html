@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="script.js" defer></script>
+    <title>Manage Task</title>
+  </head>
+  <body>
+    <header>
+      <nav class="container">
+        <h1 class="logo">Manage Task</h1>
+        <ul class="nav-items">
+          <li><a href="">Home</a></li>
+          <li><a href="">To Do</a></li>
+          <li><a href="">SignUp</a></li>
+        </ul>
+      </nav>
+      <div class="headline">
+        <h2>Manage Your Task</h2>
+        <button class="btn btn-headline">Know More</button>
+      </div>
+    </header>
+    <section class="todo-section container">
+      <h2>Your Plan for Today?</h2>
+
+      <!------------- Todo-form --------------->
+
+      <form  class="todo-form">
+        <input type="text" name="" id="" placeholder="Add Todo">
+        <input type="submit" value="Add" class="btn">
+      </form>
+      
+
+      <ul class="todo-list">
+        <!-- <li>
+          <span class="todo-text">Todo text</span>
+          <div class="todo-buttons">
+            <button class="todo-btn edit">🖊️</button>
+            <button class="todo-btn done">✔️</button>
+            <button class="todo-btn remove">❌</button>
+          </div>
+        </li> -->
+      </ul>
+    </section>
+
+    <!-- ------------SignUp-form -------- -->
+    <section class="signup-section container">
+     <h2>Register</h2>
+     <form action="" class="signup-from">
+      <div class="form-items">
+        <label for="name">UserName</label>
+        <input type="text" name="name" id="">
+      </div>
+      <div class="form-items">
+        <label for="password">Password</label>
+        <input type="password" name="password" id="">
+      </div>
+      <div class="form-items">
+        <label for="confirmPassword">Confirm Password</label>
+        <input type="password" name="confirmPassword" id="">
+      </div>
+      <div class="form-items">
+        <label for="email">Email</label>
+        <input type="email" name="email" id="">
+      </div>
+      <div class="form-items">
+        <label for="phone">Phone Number</label>
+        <input type="tel" name="phone" id="">
+      </div>
+      <div class="form-items">
+        <label for="about">Tell about yourself</label>
+        <textarea name="about" id="about" cols="30" rows="10"></textarea>
+      </div>
+      <button type="submit" class="btn signup-btn">Submit</button>
+    </form>
+
+    </section>
+  </body>
+</html>
